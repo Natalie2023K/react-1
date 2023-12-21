@@ -1,0 +1,18 @@
+.att__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.att__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.att__link a {
+    color: #000;
+    transition: opacity 0.3;
+}
+.att__link a:hover {
+color: #322a2a;
+}

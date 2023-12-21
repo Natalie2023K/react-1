@@ -1,0 +1,12 @@
+.details__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.details__description {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 20px;
+}

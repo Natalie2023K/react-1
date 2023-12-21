@@ -1,0 +1,31 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+.contact__info {
+    font-size: 16px;
+    color: #000;
+}
+.contact__sub--block {
+    display: flex;
+    gap: 16px;
+}
+.contact__sub--in {
+display:  flex;
+align-items: center;
+gap: 20px;
+}
+.contact__sub--in:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}
